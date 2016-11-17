@@ -1,0 +1,123 @@
+
+
+/*Where TV channel-hopping CSS begins*/
+/* style of left side */
+.item {
+    width:100px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+
+}
+.item a,.fake a{
+    width:120px;
+    height:70px;
+    position: absolute;
+    padding-left: 20px;
+    line-height:100px;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+}
+.item a:hover {
+    color:#fff!important
+}
+
+#id1 a { color:red}
+#id1 a:hover,#fakeDiv1 a { background-image: url('images/episodes/cloud.png')}
+#id2 a {color:blue}
+#id2 a:hover,#fakeDiv2 a { background-image: url('images/episodes/cloud.png')}
+#id3 a { color:green }
+#id3 a:hover,#fakeDiv3 a { background-image: url('images/episodes/cloud.png')}
+#id4 a { color:black }
+#id4 a:hover,#fakeDiv4 a { background-image: url('images/episodes/cloud.png')}
+#id5 a { color:brown }
+#id5 a:hover,#fakeDiv5 a { background-image: url('images/episodes/cloud.png')}
+#id6 a { color:orange }
+#id6 a:hover,#fakeDiv6 a { background-image: url('images/episodes/cloud.png')}
+
+/*right side div and links styling*/
+
+#rightDiv {
+
+    border: 1px; 
+    position:absolute;
+    top:304px;
+    right: 0;
+    height:500px;
+    width:70%;
+}
+
+
+#rightDiv .region { 
+    opacity: 0;
+    position:absolute;
+    width:500px;
+    height:371px;
+    cursor:pointer 
+}
+
+
+/*right side region links positioning*/
+
+#rightDiv a#id1match { 
+    left:15px;
+    top:50px 
+}
+
+#rightDiv a#id2match { 
+    left:15px;
+    top:50px 
+}
+
+#rightDiv a#id3match{ 
+    left:15px;
+    top:50px 
+}
+#rightDiv a#id4match{ 
+    left:15px;
+    top:50px 
+}
+#rightDiv a#id5match{ 
+    left:15px;
+    top:50px 
+}
+#rightDiv a#id6match{ 
+    left:15px;
+    top:50px 
+}
+
+/*left link hover right side change*/
+
+#id1:hover ~ #rightDiv a#id1match { 
+    background-image: url('images/episodes/burglarGiranamo.gif'); 
+    opacity: 100;
+    position: absolute;
+
+}
+#id2:hover ~ #rightDiv a#id2match {
+    background-image: url('images/episodes/BeerTruckShower.gif');
+    opacity: 100; 
+    position: absolute;
+}
+#id3:hover ~ #rightDiv a#id3match { 
+    background-image: url('images/episodes/homerfloordance.gif'); 
+    opacity: 100;
+    position: absolute;
+}
+#id4:hover ~ #rightDiv a#id4match { 
+    background-image: url('images/episodes/smithersDance.gif'); 
+    opacity: 100;
+    position: absolute;
+}
+#id5:hover ~ #rightDiv a#id5match { 
+    background-image: url('images/episodes/HomerKissMoleman.gif'); 
+    opacity: 100;
+    position: absolute;
+}
+#id6:hover ~ #rightDiv a#id6match { 
+    background-image: url('images/episodes/homermuscles.gif'); 
+    opacity: 100;
+    position: absolute;
+	}
+	
+	

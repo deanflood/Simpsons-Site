@@ -1,0 +1,40 @@
+#Content{
+		
+	}
+	
+h4 {
+	padding-top: 50px;
+	padding-left: 60px;
+	}
+
+
+#Content img{
+	position: absolute;
+	
+	}
+	
+.label{
+	display: block;
+	font-weight: bold;
+	}
+	
+.row-form{
+	padding-bottom:10px;
+	}
+	
+.input{
+	border-radius: 0.5em;
+	margin-bottom: 10px;
+	}
+	
+#FormLayout{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 80%;
+	}
+	
+#row-form{
+	padding-bottom: 10px;
+	}
+
